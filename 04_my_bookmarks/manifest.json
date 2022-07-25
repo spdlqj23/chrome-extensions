@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "My Bookmarks",
+    "description": "A browser action with a popup dump of all bookmarks",
+    "permissions": [
+        "bookmarks"
+    ],
+    "action": {
+        "default_title": "My Bookmarks",
+        "default_popup": "popup.html"
+    }
+}
