@@ -1,17 +1,13 @@
 {
     "manifest_version": 3,
-    "name": "hello world",
+    "name": "getting_started",
     "version": "0.0.1",
-    "description": "TEST",
+    "description": "getting started",
     "background": {
         "service_worker": "./src/background.js"
     },
     "permissions": [
-        "storage", "activeTab", "scripting",
-        "webRequest"
-    ],
-    "host_permissions": [
-        "*://*.elandmall.com/"
+        "storage", "activeTab", "scripting"
     ],
     "action": {
         "default_popup": "popup.html",
